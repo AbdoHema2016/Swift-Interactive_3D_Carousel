@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BC64DD3B22BA4A5C00585F7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC64DD3A22BA4A5C00585F7B /* AppDelegate.swift */; };
-		BC64DD3D22BA4A5C00585F7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC64DD3C22BA4A5C00585F7B /* ViewController.swift */; };
+		BC64DD3D22BA4A5C00585F7B /* Interactive3DCarouselVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC64DD3C22BA4A5C00585F7B /* Interactive3DCarouselVC.swift */; };
 		BC64DD4022BA4A5C00585F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC64DD3E22BA4A5C00585F7B /* Main.storyboard */; };
 		BC64DD4222BA4A5C00585F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC64DD4122BA4A5C00585F7B /* Assets.xcassets */; };
 		BC64DD4522BA4A5C00585F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC64DD4322BA4A5C00585F7B /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		BC64DD3722BA4A5C00585F7B /* Interactive 3D Carousel with Core Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interactive 3D Carousel with Core Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC64DD3A22BA4A5C00585F7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC64DD3C22BA4A5C00585F7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC64DD3C22BA4A5C00585F7B /* Interactive3DCarouselVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive3DCarouselVC.swift; sourceTree = "<group>"; };
 		BC64DD3F22BA4A5C00585F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC64DD4122BA4A5C00585F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC64DD4422BA4A5C00585F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				BC64DD3A22BA4A5C00585F7B /* AppDelegate.swift */,
-				BC64DD3C22BA4A5C00585F7B /* ViewController.swift */,
+				BC64DD3C22BA4A5C00585F7B /* Interactive3DCarouselVC.swift */,
 				BC64DD3E22BA4A5C00585F7B /* Main.storyboard */,
 				BC64DD4122BA4A5C00585F7B /* Assets.xcassets */,
 				BC64DD4322BA4A5C00585F7B /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC64DD3D22BA4A5C00585F7B /* ViewController.swift in Sources */,
+				BC64DD3D22BA4A5C00585F7B /* Interactive3DCarouselVC.swift in Sources */,
 				BC64DD3B22BA4A5C00585F7B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +275,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6V53G8VA68;
 				INFOPLIST_FILE = "Interactive 3D Carousel with Core Animation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdeo.Interactive-3D-Carousel-with-Core-Animation";
@@ -289,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6V53G8VA68;
 				INFOPLIST_FILE = "Interactive 3D Carousel with Core Animation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdeo.Interactive-3D-Carousel-with-Core-Animation";
